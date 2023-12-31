@@ -1,6 +1,7 @@
 # tide-api
 
-Rust based web API, listening at:
+Rust based web API, listening at localhost:8080.
+Used RustRover EAP.
 
 ```rust
  app.listen("0.0.0.0:8080").await?;
@@ -14,7 +15,7 @@ Rust based web API, listening at:
 ```
 
 ```rust
-  // post json { name: foo, level: bar }
+  // post json { "name": "foo", "level": bar }
   app.at("/wizards").post(create);
 ```
 
