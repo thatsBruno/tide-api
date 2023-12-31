@@ -1,0 +1,11 @@
+/Users/brunoribeiro/RustroverProjects/tide-api/target/debug/deps/libserde_qs-a68ecb7c5e66f11b.rmeta: /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/lib.rs /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/de/mod.rs /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/de/parse.rs /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/error.rs /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/ser.rs
+
+/Users/brunoribeiro/RustroverProjects/tide-api/target/debug/deps/libserde_qs-a68ecb7c5e66f11b.rlib: /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/lib.rs /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/de/mod.rs /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/de/parse.rs /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/error.rs /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/ser.rs
+
+/Users/brunoribeiro/RustroverProjects/tide-api/target/debug/deps/serde_qs-a68ecb7c5e66f11b.d: /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/lib.rs /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/de/mod.rs /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/de/parse.rs /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/error.rs /Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/ser.rs
+
+/Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/lib.rs:
+/Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/de/mod.rs:
+/Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/de/parse.rs:
+/Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/error.rs:
+/Users/brunoribeiro/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.8.5/src/ser.rs:
