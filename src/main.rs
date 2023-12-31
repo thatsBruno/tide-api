@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 use std::sync::Arc;
-use async_std::sync::RwLock;
+use tokio::sync::RwLock;
 
 #[derive(serde::Deserialize, serde::Serialize)]
 struct Wizard {
@@ -13,7 +13,11 @@ struct Repository {
 }
 
 impl Repository {
-    fn new() -> Self { Self { wizards: HashMap::new() } }
+    fn new() -> Self {
+        Self {
+            wizards: HashMap::new(),
+        }
+    }
 }
 
 type State = Arc<RwLock<Repository>>;
@@ -38,26 +42,6 @@ async fn get(req: tide::Request<State>) -> tide::Result {
 
     Ok(resp)
 }
-// async fn read_all(_req: Request<()>) -> tide::Result<tide::Body> {
-//   let wizards = vec![
-//       Wizard {
-//           name: "Gandalf".to_string(),
-//           level: 100,
-//       },
-//       Wizard {
-//           name: "Merlin".to_string(),
-//           level: 65,
-//       },
-//   ];
-//
-//   Ok(tide::Body::from_json(&wizards)?)
-//}
-
-// async fn create(mut req: Request<()>) -> tide::Result<String> {
-//    let wizard: Wizard = req.body_json().await?;
-//    Ok(format!("{} is level {}!", wizard.name, wizard.level))
-// }
-
 
 #[tokio::main]
 async fn main() -> tide::Result<()> {
@@ -65,10 +49,6 @@ async fn main() -> tide::Result<()> {
     let state = Arc::new(RwLock::new(Repository::new()));
     let mut app = tide::with_state(state);
 
-    app.with( tide::log::LogMiddleware::new());
-
-    // post json { name: foo, level: bar }
-    // return wizards in json format
     app.at("/wizards").post(create);
     app.at("/wizards").get(get);
 
